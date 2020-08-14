@@ -1,0 +1,1 @@
+var animationDuration = Duration(milliseconds: 300);
