@@ -148,6 +148,7 @@ class _PokemonInfoScreenState extends State<PokemonInfoScreen>
                 right: 0,
                 child: Container(
                   key: _pokemonInfoKey,
+                  // color: Colors.amber,
                   child: OverallInfo(
                       widget.pokemon, _cardController, _rotateController,
                       cornerPokeKey: _rightCornerPokeKey),
